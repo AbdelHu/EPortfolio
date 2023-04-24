@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Student E-Portfolio | Achievements</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="Images/icon.jpg">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body onload="PageLoadEffect()"> 
+
+        <div class="menu">
+            <button onclick="toHome()">Home</button>
+            <button id="pages_button_id" onmouseover="PagesDropDown(false)", onmouseleave="PagesDropDown(true)">Pages</button>
+            <div>STUDENT E-PORTFOLIO | Achievements</div>
+        </div>
+        <div class="page_dropdown" id="pages_dropdown_id" onmouseover="PagesDropDown(false)", onmouseleave="PagesDropDown(true)">
+            <button onclick="toHome()">Home page</button>
+            <button onclick="toAchievements()">Achievements</button>
+            <button onclick="toDevelopments()">Developments</button>
+            <button onclick="toWebComp()">Websites</button>
+        </div> 
+        <p>In Term 2, I was able to score a respectable 35 out of 40 in my science test - which just so happened to be the highest mark in the class :&#41;</p>
+
+        <p>In the topic of exam marks, I also achieved a 28.5 out of 30 in my ICT assessment in the second term.</p>
+
+        <p>I also managed to earn a progress award for ICT! Here it is:</p>
+        <div class="Screenshot"><img src="Images/progress_award.jpg" alt="Badly taken image of progress award"></div>
+
+        <p>In the topic of academic achievements, I also achieved an astonishing 83 house points.</p>
+
+        <script src="main.js" async defer></script>
+    </body>
+</html>

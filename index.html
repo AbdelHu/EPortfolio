@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="E-Portfolio :)">
+    <link rel="icon" href="Images/icon.jpg">
+    <link rel="stylesheet" href="index.css">
+    <title>Student E-Portfolio | Home</title>
+</head>
+<body id="body_id" onload="PageLoadEffect()" onload="PagesDropDown(true)">
+
+    <div class="menu">
+        <button onclick="toHome()">Home</button>
+        <button id="pages_button_id" onmouseover="PagesDropDown(false)", onmouseleave="PagesDropDown(true)">Pages</button>
+        <button onclick="toWebComp()">Websites</button>
+        <div>STUDENT E-PORTFOLIO | Home</div>
+    </div>
+    <div class="page_dropdown" id="pages_dropdown_id" onmouseover="PagesDropDown(false)", onmouseleave="PagesDropDown(true)">
+        <button onclick="toHome()">Home page</button>
+        <button onclick="toAchievements()">Achievements</button>
+        <button onclick="toDevelopments()">Developments</button>
+        <button onclick="toWebComp()">Websites</button>
+    </div>
+    <br>
+    <h1>Abdel Hussein's Year 9 student E-Portfolio</h1>
+    <br>
+    <p>Hello. My name is Abdel Hussein from class 9-J and this is my porfolio for Year 9 - which includes achievements, my developments, and what i hope to achieve in the future. This portfolio also includes a little compilation of webpages i made to show my progress!</p>
+    <div class="movableStick"></div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Student E-Portfolio | Developments</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="Images/icon.jpg">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body onload="PageLoadEffect()"> 
+
+        <div class="menu">
+            <button onclick="toHome()">Home</button>
+            <button id="pages_button_id" onmouseover="PagesDropDown(false)", onmouseleave="PagesDropDown(true)">Pages</button>
+            <div>STUDENT E-PORTFOLIO | Developments</div>
+        </div>
+        <div class="page_dropdown" id="pages_dropdown_id" onmouseover="PagesDropDown(false)", onmouseleave="PagesDropDown(true)">
+            <button onclick="toHome()">Home page</button>
+            <button onclick="toAchievements()">Achievements</button>
+            <button onclick="toDevelopments()">Developments</button>
+            <button onclick="toWebComp()">Websites</button>
+        </div>
+
+        <p>In my year 8 E-Portfolio, I mentioned that i hoped to grow my skills in programming, and learn some languages like C#, Web development with HTML/CSS/Javascript and Python.</p>
+
+        <p>This year, I'm glad to say I've fully met all those resolutions and am now fully able to: </p>
+        <br>
+        <ol>
+            <li>Create and run C# console apps using the .NET Framework</li>
+            <li>Create and publish completed websites using HTML, CSS, and Javascript</li>
+            <li>Create and run a basic Python program</li>
+        </ol>
+
+        <script src="main.js" async defer></script>
+    </body>
+</html>

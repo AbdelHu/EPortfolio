@@ -1,0 +1,48 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Student E-Portfolio | Websites</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="Images/icon.jpg">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body onload="PageLoadEffect()">
+        <div class="menu">
+            <button onclick="toHome()">Home</button>
+            <button id="pages_button_id" onmouseover="PagesDropDown(false)", onmouseleave="PagesDropDown(true)">Pages</button>
+            <div>STUDENT E-PORTFOLIO | Website compilation</div>
+        </div>
+        <div class="page_dropdown" id="pages_dropdown_id" onmouseover="PagesDropDown(false)", onmouseleave="PagesDropDown(true)">
+            <button onclick="toHome()">Home page</button>
+            <button onclick="toAchievements()">Achievements</button>
+            <button onclick="toDevelopments()">Developments</button>
+            <button onclick="toWebComp()">Websites</button>
+        </div>
+
+        <div class="Screenshot"><img src="Images/tablemaker_screenshot.png" alt="Screenshot of Tablemaker"></div>
+        <h2>1. Table Maker</h2>
+        <p>While our class was learning to build tables in HTML, i was building <i>building</i> tables!</p>
+        <br>
+        <p>I made this website to get my feet wet into basic Javascript functions. This paved the way for the making of my next website.</p>
+        <p><a href="https://abdelhu.github.io/Table-Maker-Website/" target="_blank" rel="noopener">Click to open table maker!</a></p>
+        <hr>
+
+        <div class="Screenshot"><img src="Images/histotube_screenshot.png" alt="Screenshot of Tablemaker"></div>
+        <h2>2. Histo-tube!</h2>
+        <p>This was made originally as part of a History task we had, but I went a bit overkill.</p>
+        <br>
+        <p><a href="https://abdelhu.github.io/HissyTube/" target="_blank" rel="noopener">Click to open Histotube!</a></p>
+        <hr>
+
+        <div class="Screenshot"><img src="Images/eportfolio_screenshot.png" alt="Screenshot of Tablemaker"></div>
+        <h2>3. This website!</h2>
+        <p>This portfolio also counts as an accomplishment, seeing as it took multiple days to finish.</p>
+        <br>
+        <p><a href="index.html" target="_blank" rel="noopener">Click to open E-Portfolio!</a></p>
+        <hr>
+
+        <script src="main.js" async defer></script>
+    </body>
+</html>
